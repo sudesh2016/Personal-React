@@ -1,5 +1,3 @@
-<div id="root"></div>
-<script>
 const nodeTree = {
   type: 'div',
   children: [{
@@ -41,4 +39,3 @@ function getDOM(nodeTree, rootElement) {
 
 let rootElement = document.getElementById('root');
 rootElement.appendChild(getDOM(nodeTree));
-</script>
